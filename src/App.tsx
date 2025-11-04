@@ -6,15 +6,15 @@
 function App() {
 
   return (
-    <>
-    <div className='aside'>
-<SideBar  />
+    <div className="row">
+    <div className='col-3'>
+      <SideBar  />
+    </div>
+      <div className='main col-9'>
+      <ToDoList />
+      <ListDone />
+      </div>
 </div>
-<div className='main col-9'>
-<ToDoList />
-<ListDone />
-</div>
-</>
   )
 
 

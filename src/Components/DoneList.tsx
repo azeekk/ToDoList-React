@@ -1,6 +1,6 @@
 function ListDone() {
   return (
-    <div>
+    <div className="mt-5">
       <h2>Done List</h2>
       {}
     </div>

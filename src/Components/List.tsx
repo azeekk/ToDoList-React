@@ -18,7 +18,7 @@ function ToDoList () {
     }
 
     return (
-<div className='container mt-5 col-9'>
+<div className='mt-5 col-9'>
     <h2 className='ml-2 text-primary'>To-Do List</h2>
 <ul className="list-group text-danger">
   {array.map((item, index) => (
